@@ -72,6 +72,7 @@ h1{
     width: 200px;
     text-align: center;
     margin-bottom: 30px;
+    padding: 5px;
     
 }
 .section-three{
@@ -108,13 +109,20 @@ div>ul{
 }
 .images{
     display: flex; 
-    justify-content: space-evenly; 
+    justify-content: center; 
     flex-wrap: wrap;
-    width:100%
+    width:90%;
+    margin: auto;
 }
 .images img{
    max-width: 100%; 
-    display: flex; 
+   padding: 5px;
+    /* display: flex;  */
+}
+.cart{
+    width:33.33333%;
+
+   
 }
 
 
